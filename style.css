@@ -1,0 +1,282 @@
+
+<![CDATA[/*
+-----------------------------------------------
+Blogger Template Style
+Name:     my white theme
+Designer:  http://mythem.es/my/white
+URL:      http://mythem.es/my/white
+Date:     27 Abr 2011
+Updated by: Dhampire
+----------------------------------------------- */
+
+#navbar-iframe {
+height:0px;
+visibility:hidden;
+display:none;
+}
+
+/************** BODY *****************/
+
+* {
+margin:0;
+padding:0;
+}
+
+body { margin:0px; padding:0px; border:none; background:#fff; }
+
+a { text-decoration:none; padding:0px; margin:0px; color:#0045aa; } 
+
+	a:visited{ text-decoration:none; padding:0px; margin:0px; color:#0045aa; }
+	a:hover { text-decoration:none; padding:0px; margin:0px; color:#faa745; }
+	
+	a.more-link { display:block; padding:8px; float:right;}
+
+
+
+/************** HEADER *****************/
+
+/* ----- Busca ----- */
+
+#busca{
+width:auto;
+height:auto;
+z-index:1;
+position: absolute;
+top: 0px;
+left: 620px;
+}
+#header-wrapper { width:800px; height:130px;border-bottom:1px solid #f5f5f5; background:#fff; margin:0px auto 0px auto; }
+
+#header { position:absolute; margin:10px 0px 0px 10px; width:600px; }
+
+#header h2 { font:normal 25px Cuprum,sans-serif,versans-seri; padding:0px; margin:0px; text-align:left;  border:none;}
+
+#header a {  color:#000;  }
+
+#header a:hover{ text-decoration:underline; }
+
+#header .description { margin:0px 0px 0px 10px; padding:0px; font:normal 16px "Trebuchet MS",Tahoma,sans-serif,verdana,arial;   border:none; color:#666666; }
+
+/*********** SOCIAL *******/
+	/* social side rss, twitter */
+	div#social { position:absolute; margin:90px 0px 0px 638px; text-align:right; }
+	div#social a { margin:0px 0px 0px 5px;}
+	div#social a img { border:none; }
+	div#social a.rss{ width:44px; height:35px; margin:0px 0px 0px 0px;  float:right; background-image:url('http://1.bp.blogspot.com/-s-A-L0Qqu_k/TgK7Gq2AWuI/AAAAAAAAAls/McwLXhqJOc8/s000/mc6x39.png');  display:block;}
+	div#social a.rss:hover { background-image:url('http://3.bp.blogspot.com/-OoQHdZ7x19g/TgK7GwWam8I/AAAAAAAAAlw/Q02X2is8R8A/s000/142eruf.png');}
+	div#social a.twitter { width:44px; height:35px; float:right; background-image:url('http://2.bp.blogspot.com/-m4qJUOzHIHs/TgK7HMI89jI/AAAAAAAAAl0/7m6Wk0Ai1o0/s000/2wcmc9g.png'); display:block;}
+	div#social a.twitter:hover { background-image:url('http://4.bp.blogspot.com/-1ZCU59g_VeQ/TgK7HVhsBLI/AAAAAAAAAl4/YpFhKEqi_ws/s000/2ebcx1u.png'); }
+
+/************ MENU **************/
+
+	/* meniu */	
+	div.menu { position:absolute; margin:140px 0px 0px 0px; width:800px; }
+	
+	div.menu ul {  margin:0px 20px 0px 0px; padding:10px 10px 1px 10px; list-style:none; float:right;}
+		
+	div.menu ul li { padding:0px; margin:0px; display:inline; float:left; border-left:1px solid #666; }
+	div.menu ul li a { padding:0px 10px 0px 10px; margin:0px; font:normal 14px Cuprum,Verdana,sans-serif,tahoma,arial; color:#a0a0a0;  display:block; }
+	div.menu ul li a:hover { color:#f7a23e; }
+
+	div.menu ul li.current_page_item a{ color:#666666;  }
+	div.menu ul li.home_page_item { border:none; }
+
+	div.menu ul li.menu-item ul.sub-menu {  min-width:180px; margin:0px 1px 0px -1px; padding:1px 8px 1px 8px; display:none; position:absolute; background:#ffffff;  border-left:1px solid #666666; border-right:1px solid #666666; border-bottom:1px solid #666666; border-top:1px dotted #dfdfdf;}
+	div.menu ul li.menu-item ul.sub-menu li { display:block; clear:both; background-image:url('resource/images/hidden-pages.png'); background-repeat:no-repeat; }
+	div.menu ul li.menu-item ul.sub-menu li ul { position:relative; }			
+	
+	div.menu ul li:hover ul.sub-menu { display:block;}
+
+	div.menu ul ul.sub-menu {   min-width:180px; margin:0px 1px 2px -1px; position:absolute; background:#ffffff;  display:none; padding:8px 8px 8px 8px; border-left:1px solid #666666; border-right:1px solid #666666; border-bottom:1px solid #666666; border-top:1px dotted #dfdfdf; }
+				
+	div.menu ul li.menu-item ul.sub-menu li ul { position:relative; border:none; display:block; }			
+	div.menu ul li.menu-item ul.sub-menu li {  width:auto; height:auto; margin:0px; padding:1px  0px 1px 10px; background:none;   text-align:left; border:none;  display:block; }
+	div.menu ul li.menu-item ul.sub-menu li a { padding:0px 0px 0px 15px; font:normal  14px Cuprum,Verdana,"Trebuchet MS",Tahoma,sans-serif,arial; background-image:url('http://3.bp.blogspot.com/-Zu9qkjnyEWI/TgK7HkKMw7I/AAAAAAAAAl8/ANeu-XSsfJs/s000/2ziwv41.png'); background-repeat:no-repeat; color:#666; }
+	div.menu ul li.menu-item ul.sub-menu li a:hover {color:orange; }
+
+
+/************** CONTENT *****************/
+
+#main-container { width:860px; margin:0px auto 0px auto; padding:10px 0px 0px 0px; background:#ffffff; clear:both; display:block; } 
+
+#main-wrapper { width:560px;  padding:10px 0px 10px 15px; float:left; text-align:left; background:#ffffff;}
+
+.main .widget { 
+  margin:0 0 1.5em;
+  padding:0 0 1.5em;
+ }
+
+.main .Blog { 
+  border-bottom-width: 0;
+}
+
+/************** POSTS *****************/
+
+.post { padding:5px 0px 0px 0px; clear:both; display:block; }
+.post h1 { font-size:26px;  }
+.post p{ font:normal 13px Tahoma,"Trebuchet MS",Verdana,sans-seriv; color:#aaaaaa; padding:3px 0px 3px 0px; margin:0px; border-bottom:1px solid #cdcdcd;   text-align:justify; }
+
+.post-header { margin:5px 0px 0px;  clear:both; font:normal 11px Verdana,sans-serif,"Trebuchet MS",tahoma,Arial; color:#b8b8b8; }
+.post-header a { font:normal 11px Verdana,sans-serif,"Trebuchet MS",tahoma,Arial; color:#222222; text-decoration:underline; }
+.post-header a:hover { text-decoration:none;}
+
+.post-body { margin:0px; padding:8px 0px 8px 0px; display:block; clear:both; font:normal 13px Tahoma,"Trebuchet MS",Verdana,sans-seriv; color:#454545; text-align:justify;}
+
+.post-body  p{ font:normal 13px Tahoma,"Trebuchet MS",Verdana,sans-seriv; color:#454545; padding:3px 0px 3px 0px; margin:0px; border:none;  text-align:justify; }
+			
+.post-body object { margin:0px auto 0px auto; display:block;}
+.post-body embed { margin:0px auto 0px auto; display:block;}
+.post-body img { border:none;  max-width:540px; height:auto; padding:5px;   background-image:url('http://2.bp.blogspot.com/-8keYn-4xT_M/TgK7HzEh9uI/AAAAAAAAAmA/jlR6W6hnhS0/s000/2077sw4.png');  }
+
+.post-body a img { border:1px solid #cfcfcf; padding:5px;  background-image:url('http://2.bp.blogspot.com/-8keYn-4xT_M/TgK7HzEh9uI/AAAAAAAAAmA/jlR6W6hnhS0/s000/2077sw4.png'); }
+.post-body a:hover img { border:1px solid #cfcfcf; padding:5px;  background-image:url('http://2.bp.blogspot.com/-8keYn-4xT_M/TgK7HzEh9uI/AAAAAAAAAmA/jlR6W6hnhS0/s000/2077sw4.png'); }
+
+
+
+.post-footer { border-top:1px solid #cdcdcd; clear:both; margin:0px 0px 35px 0px; font:normal 11px Verdana,sans-serif,"Trebuchet MS",tahoma,Arial; color:#b8b8b8; }
+.post-footer a { font:normal 11px Verdana,sans-serif,"Trebuchet MS",tahoma,Arial; color:#222222; text-decoration:underline; }
+.post-footer a:hover { text-decoration:none;}
+.post-footer .comment  {  padding:3px 1px 3px 3px; float:right; }
+
+.comment-link {
+  margin-left:.6em;
+  }
+  .jump-link {
+    /* es el bloque contenedor */
+  }
+  .jump-link a { display:block; padding:8px; float:right;}
+  .jump-link a:hover {
+    /* si quisiéramos agregarle un efecto onmouseover */
+  }
+
+/************** COMMENTS *****************/
+#comments h4 {
+  margin:1em 0;
+  font-weight: bold;
+  }
+
+#comments-block {
+  margin:1em 0 1.5em;
+  line-height:1.6em;
+  }
+#comments-block .comment-author {
+  margin:.5em 0;
+  }
+#comments-block .comment-body {
+  margin:.25em 0 0;
+  }
+#comments-block .comment-footer {
+  margin:-.25em 0 2em;
+  }
+#comments-block .comment-body p {
+  margin:0 0 .75em;
+  }
+#comments-block.avatar-comment-indent { /* es la lista completa DL */
+  margin-left: 45px; /* esto puede complicar la salida de los datos */
+  position: relative;
+}
+#comments-block.avatar-comment-indent dd { /*  */
+  margin-left: 0;
+}
+#comments-block .avatar-image-container { /* el contenedor de las imágenes */
+  height: 37px;
+  left: -45px;  /* aparentemente compensa el margen */
+  position: absolute;
+  width: 37px;
+}
+#comments-block .avatar-image-container img { /* las imágenes tienen un borde gris */
+  border: 1px solid #CCCCCC;
+  float: right;
+}
+#comments-block .avatar-image-container.avatar-stock img { /* cuando no hay imagen y se usan iconos normales */
+  border-width: 0;
+  padding: 1px;
+}
+
+.deleted-comment {
+  font-style:italic;
+  color:gray;
+  }
+
+#blog-pager-newer-link { float:right; font:normal 11px Verdana,"Trebuchet MS",sans-serif;}
+
+ 
+#blog-pager-older-link { float:left; font:normal 11px Verdana,"Trebuchet MS",sans-serif;}
+#blog-pager { 
+  text-align: center;
+ }
+
+.feed-links {  clear: both; font:normal 11px Verdana,"Trebuchet MS",sans-serif;
+}
+
+/************** SIDEBAR *****************/
+
+#sidebar-wrapper { width:270px; padding:10px 0px 35px 15px; float:left; font:normal 12px "Trebuche MS",verdana,sans-serif,tahoma,impact,arial; color:#454545; background:#ffffff;}
+
+
+.sidebar { list-style:none; margin:0px; padding:0px;  }
+.sidebar h2 {  font:bold 18px Cuprum,"Trebuchet Ms",Verdana,sans-serif,tahoma,impact; color:#000000; padding:5px 0px 5px 10px; margin:0px 0px 0px 0px; border-bottom:0px solid #aaaaaa; background-image:url('http://2.bp.blogspot.com/-8keYn-4xT_M/TgK7HzEh9uI/AAAAAAAAAmA/jlR6W6hnhS0/s000/2077sw4.png');}
+
+.sidebar ul { list-style:none; margin:0px 0px 0px 2px; padding:0px 0px 0px 0px; color:#727272;   }
+.sidebar ul { clear:both; display:block; float:none; }
+
+.sidebar li{ display: block; border-left:none; clear:both; float:none; border-bottom:1px dotted #cccccc; padding:0px;}
+.sidebar li a { font:normal 12px "Trebuchet Ms",Verdana,sans-serif,tahoma,impact,arial; color:#727272;}
+
+.sidebar .widget { padding:15px 10px 10px 10px; margin-bottom:20px; border:1px dotted #cdcdcd;}
+
+/************** FOOTER *****************/
+
+div#footer { width:800px; height:40px; padding:0px 0px 10px 0px;  margin:0px auto 0px auto; text-align:left; border-top:1px solid #121212; background:#ffffff; font:normal 12px "Trebuchet MS",Verdana,sans-serif,tahoma,arial; color:#4e4e4e; clear:both; display:block; }
+div#footer p { padding:5px 10px 0px 10px; border:none; }
+div#footer p.footer-left { float:left; }
+div#footer p.footer-right { float:right; text-align:right; }
+div#footer a { text-decoration:underline; } 
+div#footer a:hover { text-decoration:none;} 
+
+div#footer p.line-bottom { color:#777; text-transform:uppercase; font-size:11px; }
+div#footer p.line-bottom  a { color:#ff9900; text-decoration:none; }
+div#footer p.line-bottom  a:hover { color:#ff9900; text-decoration:underline; }
+.line-bottom { display:block; clear:both; }
+
+table { margin:5px; border-collapse:collapse;}
+
+table tbody,
+table tr,
+table td { padding:8px 5px; text-align:left; vertical-align:top; background:#ffffff; border:1px solid #cccccc; color:#666666; font:normal 12px Tahoma,Impact,"Trebuchet MS",Verdana,sans-serif;}
+
+table th { padding:8px 5px; text-align:center; vertical-align:middle; background:#eeeeee; border:1px solid #cccccc; color:#333333; font:normal 12px Tahoma,Impact,"Trebuchet MS",Verdana,sans-serif;}
+
+dt, dd { font:bold 16px "Trebuchet MS",tahoma,verdana,sans-serif,arial; color:#333333; }
+
+fieldset { border:1px dashed #999999; padding:10px; }
+legend { margin:5px; padding:3px; font:bold 12px Verdana,"Trebuchet MS",sans-serif,tahoma,arial; color:#000000; }
+form { margin:5px; padding:10px; font: bold 13px "Trebuchet MS",verdana,tahoma,sans-serif,arial; color:#333333; }
+
+p{ color:#3e3e3e; font:normal 13px "Trebuchet MS",Tahoma,Verdana,Arial,sans-serif; text-align:justify; padding:10px; }
+
+h1 { font:bold 24px Cuprum,"Trebuchet MS",tahoma,verdana,sans-serif; color:#222222; margin:0px; padding:0px; }
+h2 { font:bold 20px Cuprum,"Trebuchet MS",tahoma,verdana,sans-serif; color:#222222; margin:15px 0px 5px 0px; padding:0px; }
+h3 { font:bold 18px Cuprum,"Trebuchet MS",tahoma,verdana,sans-serif; color:#222222; margin:15px 0px 5px 0px; padding:0px; }
+h4 { font:bold 16px Cuprum,"Trebuchet MS",tahoma,verdana,sans-serif; color:#222222; margin:15px 0px 5px 0px; padding:0px; }
+h5 { font:bold 15px Cuprum,"Trebuchet MS",tahoma,verdana,sans-serif; color:#222222; margin:15px 0px 5px 0px; padding:0px; }
+h6 { font:bold 14px Cuprum,"Trebuchet MS",tahoma,verdana,sans-serif; color:#222222; margin:15px 0px 5px 0px; padding:0px; }
+
+textarea { border:1px solid #999999; font:normal 13px "Trebuchet MS",Tahoma,Verdana,Arial,sans-serif; color:#666666; margin:5px; padding:5px; width:90%; }
+select { padding:3px; width:200px; margin:5px; font:normal 12px "Trebuche MS",verdana,sans-serif,tahoma,impact,arial; color:#666666;  border:1px solid #999999; }
+
+label{ font:normal 14px "Trebuchet MS",Tahoma,Verdana,Arial,sans-serif; color:#333333; }
+
+pre { padding:10px; }
+
+code {margin:0px; padding:2px; background:#999999; color:#ffffff; font:normal 11px courier; }
+
+blockquote { background:#f9f9f9; font-style:italic; border-left:2px solid #f0f0f0; padding-left:20px;}
+
+ul { list-style:square;}
+li { font:normal 12px "Trebuchet MS",verdana,sans-serif,tahoma,arial; color:#333333;}
+
+
+.post-body img {border:0px; max-width:99% !important;}
+
+]]>
